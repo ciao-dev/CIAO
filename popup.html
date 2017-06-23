@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <title>CIAO: a Data Plane for the Free Proxy Ecosystem</title>
+    <style type="text/css">
+      body {
+        font-family: verdana;
+        font-size: 10pt;
+        min-width: 200px;
+      }
+      button {
+     width: 100%;
+     height: 100%;
+	}
+    </style>
+    <script type="text/javascript" src="popup.js"></script>
+  </head>
+  <body>
+    Enable: <input type="checkbox" id="ciao_enable"/>
+    
+    
+    <div id="options">
+      
+    <hr>
+
+    Country: 
+    <select id="region" > 
+
+</select>
+
+
+    <br/>
+	Proxy Settings:
+
+	<select id="anonimity" >
+		
+	</select>
+	
+	<button id="apply"> Apply Proxy Settings</button>
+	<button id="change_proxy">Request New Proxy (Default)</button> 
+	<button id="change_proxy_https">Request New Proxy (HTTPs)</button> 
+ 
+ <hr>	
+
+<div id="display"></div>
+
+	</div>
+
+  </body>
+</html>
