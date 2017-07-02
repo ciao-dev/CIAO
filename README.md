@@ -6,6 +6,6 @@ CIAO is a Chrome plugin that automates the discovery of free proxies. Given user
 
 CIAO identifies trusted and working free proxies using its own community. CIAO is instrumented to collect anonymous data about proxy performance and behavior (e.g., amount of data downloaded, page download duration). This data is reported to our servers as an input for the proxy selection algorithm. To bootstrap this process, our servers discover free proxies by crawling proxy aggregator websites. Each proxy is then tested daily to verify reachability, performance, and behavior. 
 
-Note that data collection is disable when CIAO is not enabled. We also  do not collect past browsing history, any personal identifiable information (PII) or long term constant identifiers like cookies, IP addresses, etc. For more information please visit our webpage: http://isthatfreeproxysafe.com
+Note that data collection is disable when CIAO is not enabled. We also do not collect browsing history, visited urls or domains, any personal identifiable information (PII) or long term constant identifiers like cookies, IP addresses, etc. For more information please visit our webpage: http://isthatfreeproxysafe.com
 
 
